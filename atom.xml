@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://vss2021.github.io</id>
+    <title>vss2021</title>
+    <updated>2022-08-19T11:25:24.679Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://vss2021.github.io"/>
+    <link rel="self" href="https://vss2021.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://vss2021.github.io/images/avatar.png</logo>
+    <icon>https://vss2021.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, vss2021</rights>
+    <entry>
+        <title type="html"><![CDATA[凌云]]></title>
+        <id>https://vss2021.github.io/post/ling-yun/</id>
+        <link href="https://vss2021.github.io/post/ling-yun/">
+        </link>
+        <updated>2022-08-06T01:00:36.000Z</updated>
+        <content type="html"><![CDATA[<p>“2+2”联合培养：本科前两年在西北工业大学学习，后两年在俄罗斯喀山国立技术大学（喀航）学习，取得双方本科学位。</p>
+<p>招生大类：能源与动力大类</p>
+<p>培养规模：20人/年左右，单独设班</p>
+<p>培养目标：基础扎实、国际视野，优质硕、博生源</p>
+<p>西工大与喀航签署“2+2”联合培养校级、院级合作协议</p>
+<p>喀山国立技术大学实力</p>
+<p>●俄最著名的航空航天大学之一，被誉为“俄罗斯航空技术人才的摇篮”</p>
+<p>●俄罗斯科教部重点建设的首批12所“研究型大学”之一</p>
+<p>●中俄工科大学联盟成员高校</p>
+<p>●中国航发集团定点培训基地</p>
+<p>奖、助学金设置</p>
+<p>一、二年级享受专项助学金，三、四年级享受国家留学基金委全额助学金，在外学习期间同等参评西工大各类奖学金。</p>
+<p>俄语课程设置</p>
+<p>沉浸式强化学习俄语，由中方的俄语老师讲授基础语法，外教讲授俄语语音、俄语口语、基础俄语、科技俄语、专业俄语。</p>
+<p>“专业导向 逐级提升 应用牵引”</p>
+<p>培养方案特点</p>
+<p>●英语、俄语并重</p>
+<p>●在中俄双方培养方案基础上科学对接</p>
+<p>●厚基础，重专业，强实践</p>
+<p>培养体系</p>
+<p>●本-硕-博-就业 全体系的培养和规划</p>
+<p>●优化配置的课程和师资</p>
+<p>●面向国家对航空发动机顶尖人才的需求</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://vss2021.github.io/post/ce-shi/</id>
+        <link href="https://vss2021.github.io/post/ce-shi/">
+        </link>
+        <updated>2022-08-05T01:55:13.000Z</updated>
+        <content type="html"><![CDATA[<p>好耶，测试</p>
+]]></content>
+    </entry>
+</feed>
