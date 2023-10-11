@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://vss2021.github.io</id>
+    <title>qaq</title>
+    <updated>2023-10-11T13:11:37.949Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://vss2021.github.io"/>
+    <link rel="self" href="https://vss2021.github.io/atom.xml"/>
+    <subtitle>项目管理</subtitle>
+    <logo>https://vss2021.github.io/images/avatar.png</logo>
+    <icon>https://vss2021.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, qaq</rights>
+    <entry>
+        <title type="html"><![CDATA[测试]]></title>
+        <id>https://vss2021.github.io/post/ce-shi/</id>
+        <link href="https://vss2021.github.io/post/ce-shi/">
+        </link>
+        <updated>2023-10-11T08:01:59.000Z</updated>
+        <content type="html"><![CDATA[<p>测试加一</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[俄罗斯项目实践]]></title>
+        <id>https://vss2021.github.io/post/e-luo-si-xiang-mu-shi-jian/</id>
+        <link href="https://vss2021.github.io/post/e-luo-si-xiang-mu-shi-jian/">
+        </link>
+        <updated>2023-10-11T03:00:25.000Z</updated>
+        <content type="html"><![CDATA[<p>项目理念：<br>
+понятие проекта：<br>
+本项目旨在缓解中文互联网中喀山相关内容匮乏的问题。<br>
+Этот проект призван восполнить недостаток контента, связанного с Казанью, в китайском Интернете.<br>
+全方面增强中国人对喀山的了解。<br>
+Расширить представление китайцев о Казани во всех аспектах.<br>
+用学生的资源和能力实现，不以营利为目的，是公益活动。<br>
+Реализуется за счет средств и возможностей студентов, не приносит прибыли и является общественным служением.<br>
+项目限制：<br>
+Ограничения проекта：<br>
+1.项目总时间：<br>
+1.Общее время проекта<br>
+一学期，到2024年1月1日<br>
+Один семестр, до 1 января 2024 года<br>
+2.项目资源：<br>
+2. Ресурсы проекта:<br>
+学生的智慧。居住在喀山，可实地考察喀山情况。老师的指导。其他同学对喀山的具体了解。<br>
+Студенческая мудрость. Проживание в Казани и выездные экскурсии в Казань. Руководство преподавателя. Конкретные знания о Казани от других студентов.<br>
+3.项目团队<br>
+3. Команда проекта<br>
+五名学生组成的团结小队<br>
+Сплоченная команда из пяти студентов.<br>
+4.项目范围<br>
+4. территория проекта<br>
+网络<br>
+Интернет</p>
+]]></content>
+    </entry>
+</feed>

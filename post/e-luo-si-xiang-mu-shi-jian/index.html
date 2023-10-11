@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>俄罗斯项目实践 | qaq</title>
+<link rel="shortcut icon" href="https://vss2021.github.io/favicon.ico?v=1697029894062">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://vss2021.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="俄罗斯项目实践 | qaq - Atom Feed" href="https://vss2021.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="项目理念：
+понятие проекта：
+本项目旨在缓解中文互联网中喀山相关内容匮乏的问题。
+Этот проект призван восполнить недостаток контента, связанного с Казань..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://vss2021.github.io">
+  <img class="avatar" src="https://vss2021.github.io/images/avatar.png?v=1697029894062" alt="">
+  </a>
+  <h1 class="site-title">
+    qaq
+  </h1>
+  <p class="site-description">
+    项目管理
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              俄罗斯项目实践
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-10-11
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>项目理念：<br>
+понятие проекта：<br>
+本项目旨在缓解中文互联网中喀山相关内容匮乏的问题。<br>
+Этот проект призван восполнить недостаток контента, связанного с Казанью, в китайском Интернете.<br>
+全方面增强中国人对喀山的了解。<br>
+Расширить представление китайцев о Казани во всех аспектах.<br>
+用学生的资源和能力实现，不以营利为目的，是公益活动。<br>
+Реализуется за счет средств и возможностей студентов, не приносит прибыли и является общественным служением.<br>
+项目限制：<br>
+Ограничения проекта：<br>
+1.项目总时间：<br>
+1.Общее время проекта<br>
+一学期，到2024年1月1日<br>
+Один семестр, до 1 января 2024 года<br>
+2.项目资源：<br>
+2. Ресурсы проекта:<br>
+学生的智慧。居住在喀山，可实地考察喀山情况。老师的指导。其他同学对喀山的具体了解。<br>
+Студенческая мудрость. Проживание в Казани и выездные экскурсии в Казань. Руководство преподавателя. Конкретные знания о Казани от других студентов.<br>
+3.项目团队<br>
+3. Команда проекта<br>
+五名学生组成的团结小队<br>
+Сплоченная команда из пяти студентов.<br>
+4.项目范围<br>
+4. территория проекта<br>
+网络<br>
+Интернет</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://vss2021.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
